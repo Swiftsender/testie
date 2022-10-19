@@ -1,23 +1,25 @@
-import React from 'react'
+import React, {useState} from 'react';
 import {
-    CloudUploadIcon,
     DatabaseIcon,
     PaperAirplaneIcon,
     ServerIcon,
 } from '@heroicons/react/solid'
-
 import bgImg from '../assets/cyber-bg.png'
 import { MailIcon } from '@heroicons/react/outline'
+import { useNavigate } from 'react-router-dom';
 
-const Hero = () => {
+const Hero = (props) => {
+    const [nav, setNav] = useState(false)
+    const handleClick = () => setNav(!nav)
+    const handleClose =()=> setNav(!nav)
+    const navigate = useNavigate();
   return (
     <div name='home' className='w-full h-screen bg-zinc-200 flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                 <p className='text-2xl'>Unique emailing & sending</p>
                 <h1 className='py-3 text-5xl md:text-7xl font-bold'>Email management</h1>
-                <p className='text-2xl'>This is our Tech brand.</p>
-                <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button>
+                <button onClick={() => navigate("/Auth")} className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button>
             </div>
             <div>
                 <img className='w-full' src={bgImg} alt="/" />
@@ -30,7 +32,7 @@ const Hero = () => {
                     <p className='flex px-4 py-2 text-slate-500'><MailIcon className='h-6 text-blue-800' /> Email Management</p>
                     <p className='flex px-4 py-2 text-slate-500'><DatabaseIcon className='h-6 text-blue-800' /> Task Manager</p>
                     <p className='flex px-4 py-2 text-slate-500'><ServerIcon className='h-6 text-blue-800' /> Cloud Data</p>
-                    <p className='flex px-4 py-2 text-slate-500'><PaperAirplaneIcon className='h-6 text-blue-800' /> API</p>
+                    <p className='flex px-4 py-2 text-slate-500'><PaperAirplaneIcon className='h-6 text-blue-800' /> Email Manager</p>
                 </div>
             </div>
         </div>

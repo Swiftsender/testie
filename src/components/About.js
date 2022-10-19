@@ -5,7 +5,7 @@ const About = () => {
     <div name='about' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
             <div className='text-center'>
-                <h2 className='text-5xl font-bold'>Trusted by business and people across the world</h2>
+                <h2 className='text-5xl font-bold'>Trusted by businesses and people across the world</h2>
                 <p className='text-3xl py-6 text-black-700'>Our services are available to all 200 countries of the world</p>
             </div>
 
@@ -19,7 +19,7 @@ const About = () => {
                     <p className='text-gray-400 mt-2'>Customer Support</p>
                 </div>
                 <div className='border py-8 rounded-xl shadow-xl' >
-                    <p className='text-6xl font-bold text-indigo-600'>100K</p>
+                    <p className='text-6xl font-bold text-blue-800'>100K</p>
                     <p className='text-gray-400 mt-2'>Users</p>
                 </div>
             </div>

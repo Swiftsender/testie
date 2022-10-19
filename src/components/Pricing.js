@@ -22,7 +22,7 @@ const Pricing = () => {
         <div className='grid md:grid-cols-2'>
 
           <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
-            <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Standard</span>
+            <span className='uppercase px-3 py-1 bg-indigo-200 text-blue-800 rounded-2xl text-sm'>Standard</span>
             <div>
               <p className='text-6xl font-bold py-4 flex'>$0<span className='text-xl text-slate-500 flex flex-col justify-end'>/mo</span></p>
             </div>
@@ -39,7 +39,7 @@ const Pricing = () => {
             </div>
           </div>
           <div className='bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
-            <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Premium</span>
+            <span className='uppercase px-3 py-1 bg-indigo-200 text-blue-800 rounded-2xl text-sm'>Premium</span>
             <div>
               <p className='text-6xl font-bold py-4 flex'>$5<span className='text-xl text-slate-500 flex flex-col justify-end'>/mo</span></p>
             </div>

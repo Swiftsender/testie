@@ -19,9 +19,7 @@ const AllInOne = () => {
             <div>
               <h3 className='font-bold text-lg'>priority feature</h3>
               <p className='text-lg pt-2 pb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime deserunt voluptatibus consequatur similique
-                voluptates!
+                Get live notifications when you receive emails from people/businesses that you have priortised
               </p>
             </div>
           </div>
@@ -32,9 +30,7 @@ const AllInOne = () => {
             <div>
               <h3 className='font-bold text-lg'>Push Notifications</h3>
               <p className='text-lg pt-2 pb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime deserunt voluptatibus consequatur similique
-                voluptates!
+              Get notified when you receive a mail
               </p>
             </div>
           </div>
@@ -45,9 +41,7 @@ const AllInOne = () => {
             <div>
               <h3 className='font-bold text-lg'>Document viewer</h3>
               <p className='text-lg pt-2 pb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime deserunt voluptatibus consequatur similique
-                voluptates!
+               Easily view documents on the app and sign on documents easily
               </p>
             </div>
           </div>
@@ -58,9 +52,7 @@ const AllInOne = () => {
             <div>
               <h3 className='font-bold text-lg'>Easy email conversation</h3>
               <p className='text-lg pt-2 pb-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores maxime deserunt voluptatibus consequatur similique
-                voluptates!
+                Easily send emails and attend to mails with our simplified messaging tools
               </p>
             </div>
           </div>
